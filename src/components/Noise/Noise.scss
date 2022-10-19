@@ -1,0 +1,14 @@
+.noise::before{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    content: "";
+    opacity: .05;
+    z-index: 500;
+    pointer-events: none;
+    background-image: url('../../assets/noise8.gif');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+}

@@ -1,0 +1,54 @@
+.main_header p {
+  font-size: 1.5rem;
+  padding-top: 5rem;
+}
+
+.main_header h4 {
+  font-size: 5rem;
+  padding-top: 1.5rem;
+  font-weight: 900;
+  width: 100%;
+  line-height: 5rem;
+  margin-left: -6px;
+}
+
+@media only screen and (max-width: 764px) {
+  .main_header h4 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+  }
+  .main_header p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main_header h4 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .main_header h4 {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+  }
+  .main_header p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .main_header h4 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (max-height: 450px) {
+  .main_header p {
+    padding-top: 1rem;
+  }
+}
+/*# sourceMappingURL=MainHeader.css.map */

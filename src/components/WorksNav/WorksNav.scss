@@ -1,0 +1,74 @@
+nav{
+    background-color: #161616;
+    width: 40vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(100%);
+}
+
+button{
+    background: transparent;
+    align-self: flex-start;
+    margin: 1.5rem 0 0 2rem;
+    border: none;
+}
+
+nav h2{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.nav_active{
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.close_svg{
+    width: 2rem;
+    transition: transform 0.25s ease-in-out;
+}
+
+.preload * {
+    transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;  
+}
+
+.close_svg:hover{
+    transform: scale(1.2);
+    transition: transform 0.25s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    nav{
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+
+    .close_svg{
+        transform: scale(0.8);
+    }
+
+    .close_svg:hover{
+        transform: scale(1);
+    }
+
+    nav h2{
+        font-size: 1.5rem;
+        margin-top: 0rem;
+    }
+
+    button{
+        margin: 0.75rem 0 0 2rem;
+    }
+
+}

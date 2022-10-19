@@ -1,0 +1,25 @@
+.blur{
+    backdrop-filter: blur(0px);
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    width: 60vw;
+    z-index: -5;
+}
+
+.blur_active{
+    backdrop-filter: blur(10px);
+    position: absolute;
+    height: 100vh;
+    left: 0;
+    width: 60vw;
+    z-index: 5;
+    transition: backdrop-filter 0.5s ease-in-out;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .blur_active{
+        display: none;
+    }
+}

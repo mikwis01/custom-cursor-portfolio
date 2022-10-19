@@ -1,0 +1,57 @@
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
+  width: 30rem;
+}
+
+.socials li {
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+.socials li:nth-child(even) {
+  margin: 0 1.5rem;
+}
+
+.socials li:nth-child(odd):hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+@media only screen and (max-width: 764px) {
+  .socials {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .socials {
+    font-size: 1rem;
+  }
+  .socials li:nth-child(even) {
+    margin: 0 0.85rem;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .socials {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-height: 450px) {
+  .socials {
+    padding-bottom: 1rem;
+  }
+}
+/*# sourceMappingURL=Socials.css.map */
