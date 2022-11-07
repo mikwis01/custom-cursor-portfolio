@@ -1,6 +1,6 @@
 https://mikolajwisniewski.digital/
 
-Current portfolio website:
+Outdated portfolio website:
 
 -react  
 -framer motion  
